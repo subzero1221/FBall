@@ -1,0 +1,209 @@
+main {
+  text-align: center;
+}
+
+* {
+  font-family: serif;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.ptable table {
+  margin: 10px auto;
+
+  border-collapse: collapse;
+  box-shadow: gray;
+}
+
+.ptable {
+  margin: 0px 0% 0% 0%;
+}
+
+th {
+  background-color: black;
+  color: #ffe221;
+  padding: 0;
+  margin: 0;
+}
+tr {
+  padding: 0;
+  margin: 0;
+}
+.headin {
+  text-align: center;
+  color: #ffe221;
+}
+
+.wpos {
+  text-align: center;
+}
+
+.bpos {
+  color: red;
+}
+
+.wpos td {
+  color: #77ff21;
+  max-height: 1px;
+}
+
+.pos {
+  text-align: center;
+}
+
+.pos td {
+  color: yellow;
+}
+
+table .col {
+  border-bottom: 0.5px solid #ffffff;
+  padding: 0px 15px;
+  border-color: solid white;
+}
+
+.wpos:hover {
+  background-color: #77ff21;
+}
+
+.wpos:hover td {
+  color: #000000;
+}
+
+.pos:hover {
+  background-color: orangered;
+}
+
+.pos:hover td {
+  color: #000000;
+}
+
+.badge {
+  max-width: 30px;
+}
+
+label {
+  color: blue;
+  display: block;
+  margin-left: 3rem;
+}
+input {
+  border-radius: 20px;
+  border-color: blueviolet;
+}
+
+table {
+  max-height: 1px;
+  background-color: grey;
+}
+
+.hidden {
+  display: none;
+}
+
+.llogo {
+  max-width: 110px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.cflag {
+  max-width: 150px;
+  padding-top: 15rem;
+  padding-left: 6rem;
+}
+
+body {
+  background-image: image-set('https://wallpapercave.com/wp/wp4087888.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.col {
+  height: 5px;
+  width: 10px;
+  font-size: small;
+  padding: 0;
+}
+
+.kek {
+  color: black;
+}
+
+#topnav {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: burlywood;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  color: greenyellow;
+
+  text-align: center;
+  line-height: 55px;
+
+  text-decoration: none;
+}
+
+#logo {
+  width: 120px;
+
+  background-color: RoyalBlue;
+
+  font-weight: bold;
+}
+
+#about {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.headin {
+  margin-top: 25px;
+}
+
+select {
+  border-radius: 15px;
+  height: 27px;
+  background-color: cadetblue;
+}
+
+.FT {
+  color: black;
+}
+
+.pad {
+  margin: 0 10px;
+}
+
+.goals {
+  color: greenyellow;
+}
+
+.asist {
+  color: orange;
+}
+
+.place {
+  color: lawngreen;
+}
+
+.team {
+  color: #ffffff;
+}
+
+.player {
+  color: chartreuse;
+}

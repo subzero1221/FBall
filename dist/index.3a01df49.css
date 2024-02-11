@@ -1,0 +1,206 @@
+main {
+  text-align: center;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+.ptable table {
+  border-collapse: collapse;
+  box-shadow: gray;
+  margin: 10px auto;
+}
+
+.ptable {
+  margin: 0 0% 0%;
+}
+
+th {
+  color: #ffe221;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+tr {
+  margin: 0;
+  padding: 0;
+}
+
+.headin {
+  text-align: center;
+  color: #ffe221;
+}
+
+.wpos {
+  text-align: center;
+}
+
+.bpos {
+  color: red;
+}
+
+.wpos td {
+  color: #77ff21;
+  max-height: 1px;
+}
+
+.pos {
+  text-align: center;
+}
+
+.pos td {
+  color: #ff0;
+}
+
+table .col {
+  border-bottom: .5px solid #fff;
+  border-color: solid white;
+  padding: 0 15px;
+}
+
+.wpos:hover {
+  background-color: #77ff21;
+}
+
+.wpos:hover td {
+  color: #000;
+}
+
+.pos:hover {
+  background-color: #ff4500;
+}
+
+.pos:hover td {
+  color: #000;
+}
+
+.badge {
+  max-width: 30px;
+}
+
+label {
+  color: #00f;
+  margin-left: 3rem;
+  display: block;
+}
+
+input {
+  border-color: #8a2be2;
+  border-radius: 20px;
+}
+
+table {
+  background-color: gray;
+  max-height: 1px;
+}
+
+.hidden {
+  display: none;
+}
+
+.llogo {
+  max-width: 110px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.cflag {
+  max-width: 150px;
+  padding-top: 15rem;
+  padding-left: 6rem;
+}
+
+body {
+  background-image: image-set("https://wallpapercave.com/wp/wp4087888.jpg" 1x);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.col {
+  width: 10px;
+  height: 5px;
+  padding: 0;
+  font-size: small;
+}
+
+.kek {
+  color: #000;
+}
+
+#topnav {
+  background-color: #deb887;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  color: #adff2f;
+  text-align: center;
+  width: 100px;
+  height: 55px;
+  line-height: 55px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#logo {
+  background-color: #4169e1;
+  width: 120px;
+  font-weight: bold;
+}
+
+#about {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.headin {
+  margin-top: 25px;
+}
+
+select {
+  background-color: #5f9ea0;
+  border-radius: 15px;
+  height: 27px;
+}
+
+.FT {
+  color: #000;
+}
+
+.pad {
+  margin: 0 10px;
+}
+
+.goals {
+  color: #adff2f;
+}
+
+.asist {
+  color: orange;
+}
+
+.place {
+  color: #7cfc00;
+}
+
+.team {
+  color: #fff;
+}
+
+.player {
+  color: #7fff00;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
