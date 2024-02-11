@@ -16,13 +16,6 @@ const controlLeague = async function (opt) {
   console.log(opt);
 };
 
-const controlHeader = async function (country) {
-  if (!country) return;
-  await model.loadHeader(country);
-  loadView._generateHeaderMarkup(model.myPL.leagueName);
-  console.log(country);
-};
-
 const controlLoadFixtrues = async function (id) {
   await model.loadFixtures(id);
   if (!id) return;
